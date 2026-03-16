@@ -26,7 +26,7 @@ const register = async (req, res) => {
     },
   });
 
-  const token = generateTokens(user.id);
+  const token = generateTokens(user.id, res);
 
   res.status(201).json({
     status: "success",
