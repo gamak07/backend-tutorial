@@ -20,7 +20,7 @@ app.use("/watchlist", watchlistRoutes);
 
 const PORT = 5001;
 
-app.listen(PORT, () => {
+const serverapp.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
